@@ -99,7 +99,7 @@
 &trans      &kp GRAVE        &mkp LCLK       &kp LEFT_PARENTHESIS   &kp MINUS       &mkp MB4           &mmv MOVE_DOWN   &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP  &kp END    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &trans      &kp TILDE        &trans          &kp LEFT_BRACKET       &kp UNDERSCORE  &mkp MB5           &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP       &kp RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &kp LEFT_BRACE         &trans          &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT   &kp F11    &kp LEFT_BRACE        &kp RIGHT_BRACE
-&kp C_MUTE  &trans           &trans          &trans                 &trans          &trans             &mkp LCLK        &trans           &trans           &trans       &trans     &kp F12
+&rgb_ug RGB_OFF  &rgb_ug RGB_ON           &trans          &trans                 &trans          &trans             &mkp LCLK        &trans           &trans           &trans       &trans     &kp F12
             >;
 
             display-name = "layer1";
