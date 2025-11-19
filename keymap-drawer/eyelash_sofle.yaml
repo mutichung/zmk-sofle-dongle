@@ -118,8 +118,8 @@ layers:
   - F11
   - '{'
   - '}'
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
+  - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
