@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:volume-high$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:volume-low$$
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:skip-previous$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:skip-next$$
   - N
   - M
   - {t: ',', s: <}
@@ -59,14 +59,14 @@ layers:
   - layer1
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - PLAY PAUSE
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer1
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
   - Sft+$$mdi:backspace-reverse-outline$$
   layer1:
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -80,11 +80,11 @@ layers:
   - F10
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - (
-  - {t: '-', s: _}
-  - '&mkp MB4'
+  - )
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - HOME
   - PgDn
@@ -93,11 +93,11 @@ layers:
   - (
   - )
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - _
-  - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -107,18 +107,18 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
-  - RGB ON
-  - '{'
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB SPI
+  - '{'
+  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
-  - RGB BRD
-  - Ins
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - '{'
   - '}'
-  - RGB OFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
